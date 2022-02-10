@@ -1,0 +1,70 @@
+/* estilos generales */ 
+body{
+    background-color: #f08080;
+}
+
+/* estilos header index */
+h2{
+    color: blueviolet;
+    text-align: left;
+    text-transform: uppercase;
+    padding: 15px;
+    margin: 10px;
+}
+    .logo{
+        position:absolute;
+        top: 10px;
+        right: 500px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-end;
+        .contenedor{
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: flex-end;
+            a{
+                text-decoration: none;
+                color: pink;
+                .recuadro{
+                    background-color: blueviolet;
+                    padding: 5px;
+                    margin: 5px;
+                }
+            }
+        }
+    }
+
+/* estilos main index */
+.grid{
+    height: 300px;
+    display: grid;
+    grid-template-columns: 60% auto;
+    column-gap: 20px;
+    .imagenPortada{
+        position: relative;
+        top: 50px;
+        left: 15px;
+        .texto1{
+            display: grid;
+            grid-template-columns: auto 40%;
+            margin-top: 230px;
+            color: blue;
+            .link{
+                display: grid;
+                grid-template-columns: auto 40%;
+                justify-self: right;
+                color: pink;
+                margin-top: 73px;
+                margin-right: 425px;
+            }
+        }
+    }
+}
+
+/* estilos footer index */
+h5{
+    height: 100vh;
+    padding-left: 0px;
+    padding-top: 450px;
+    margin: 5px;
+}

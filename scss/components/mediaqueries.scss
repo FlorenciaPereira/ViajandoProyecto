@@ -1,0 +1,36 @@
+/* media queries */ 
+//media queries 
+
+@media only screen and (max-width: 1024px) and (min-width: 320px) {
+    .logo{
+        top: 20px;
+        right: 50px;
+    }
+    .grid{
+        grid-template-columns: auto;
+        grid-template-columns: auto;
+    }
+    .picture{
+        grid-template-columns: auto;
+        grid-template-columns: auto;
+        grid-template-columns: auto;
+    }
+
+}
+
+@media screen and (min-width: 320px) {
+    .logo{
+        top: 20px;
+        right: 50px;
+    }
+    .grid{
+        grid-template-columns: auto;
+        grid-template-columns: auto;
+    }
+    .picture{
+        grid-template-columns: auto;
+        grid-template-columns: auto;
+        grid-template-columns: auto;
+    }
+    
+}
