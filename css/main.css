@@ -83,3 +83,24 @@ h5 {
     grid-template-columns: auto;
     grid-template-columns: auto;
     grid-template-columns: auto; } }
+
+/* mapas de color */
+/* funcion del color */
+h2 {
+  text-align: left;
+  text-transform: uppercase;
+  padding: 15px;
+  margin: 10px; }
+
+.contenedor, .logo {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end; }
+
+h2 {
+  color: blueviolet; }
+
+.logo {
+  position: absolute;
+  top: 10px;
+  right: 500px; }

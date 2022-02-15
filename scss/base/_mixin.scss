@@ -1,0 +1,10 @@
+@mixin footer {
+    height: 100vh;
+    padding-left: 0px;
+    padding-top: 450px;
+    margin: 5px;
+}
+
+h5{
+    @include footer;
+}

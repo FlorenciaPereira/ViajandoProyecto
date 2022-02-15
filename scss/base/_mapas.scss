@@ -1,0 +1,11 @@
+/* mapas de color */
+
+$colors: (
+    nocturno: (light: white, gray-light: grey, gray-dark: #333, dark: #000),
+    light-day: (base: #CEAFFE, light: rgb(250, 183, 183), dark: pink)
+);
+
+/* funcion del color */
+@function clr($type, $color){
+    @return map-get(map-get($colors,$type), $color);
+}
